@@ -6,8 +6,8 @@ public class AdvancedCalc extends Calculator {
         super(x);
     }
 
-    public void Radical(double x) {
-        if(x<0){
+    public void Radical( ) {
+        if(rezultat<0){
             throw new RuntimeException("eroare");
         }
         rezultat = Math.sqrt(rezultat);

@@ -5,7 +5,7 @@ public class Main {
       c.Adunare(7);
       c.Scadere(2);
       c.Inmultire(5);
-
+    c.Radical();
       System.out.println(c.getRezultat());
     }
 }
