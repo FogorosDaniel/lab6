@@ -7,23 +7,27 @@ public class Calculator {
         rezultat = x;
     }
 
-    public void Adunare(double x) {
+    public Calculator Adunare(double x) {
         rezultat += x;
+        return this;
     }
 
-    public void Scadere(double x) {
+    public Calculator Scadere(double x) {
         rezultat -= x;
+        return this;
     }
 
-    public void Inmultire(double x) {
+    public Calculator Inmultire(double x) {
         rezultat *= x;
+        return this;
     }
 
-    public void Impartire(double x) {
+    public Calculator Impartire(double x) {
        if (rezultat == 0) {
            throw new RuntimeException("Nu merge cu 0");
        }
        rezultat /= x;
+       return this;
     }
 
     public double getRezultat() {

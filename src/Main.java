@@ -1,11 +1,10 @@
+import java.util.Calendar;
+
 public class Main {
     public static void main(String[] args) {
-      AdvancedCalc c = new AdvancedCalc();
+      Calculator c = new Calculator(); {
+      };
 
-      c.Adunare(7);
-      c.Scadere(2);
-      c.Inmultire(5);
-    c.Radical();
-      System.out.println(c.getRezultat());
+    System.out.println(new Calculator().Adunare(7).Scadere(2).Inmultire(5).getRezultat());
     }
 }
