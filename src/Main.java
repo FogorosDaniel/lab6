@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-      Calculator c = new Calculator();
+      AdvancedCalc c = new AdvancedCalc();
 
       c.Adunare(7);
       c.Scadere(2);
